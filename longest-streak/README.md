@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To run this app
+
+1. cd into the folder named server.
+2. run npm install
+3. run npm start
+3. in a new terminal window cd into the folder named longest-streak
+4. run npm install
+5. run npm start
+
+a browser window should atomatically open to http://localhost:3000
+
 ## Available Scripts
 
 In the project directory, you can run:
