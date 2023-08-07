@@ -1,3 +1,12 @@
+## To run this app
+
+1. cd into the folder named server.
+2. run npm install
+3. run npm start
+3. in a new terminal window cd into the folder named longest-streak
+4. run npm install
+5. run npm start
+
 ## The goal:
 
 The goal of this project is to create an application that takes in user typed input, and uses good UX (up to you) to display the longest "even" or "odd" streak of letters.
