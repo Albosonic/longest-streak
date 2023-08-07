@@ -55,11 +55,11 @@ function App() {
       >
         <Grid>
           {showStringHighlights && <Item>
-            <Typography>{caboose}</Typography>
-            <Typography sx={{background: 'yellow', opacity: .8, borderRadius: 7 }} >{highlighted}</Typography>
+            <Typography noWrap>{caboose}</Typography>
+            <Typography sx={{background: 'yellow', opacity: .8, borderRadius: 7 }} noWrap>{highlighted}</Typography>
           </Item>}
         </Grid>
-        <Typography>{`Longest Streak ${streak}`}</Typography>
+        <Typography noWrap >{`Longest Streak ${streak}`}</Typography>
         <TextField
             id="standard-search"
             label="Type Here"
@@ -67,7 +67,6 @@ function App() {
             onChange={(e) => computeStreak(e.target.value)}
             sx={{ opacity: opacity }}
           />
-
       </Grid>
     </Paper>
   );
